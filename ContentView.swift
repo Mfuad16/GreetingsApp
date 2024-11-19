@@ -12,7 +12,6 @@ struct ContentView: View {
         ZStack {
             LinearGradient(colors: [.gray,.yellow.opacity(0.5)], startPoint: .topLeading, endPoint: .bottomTrailing)
                 .ignoresSafeArea()
-            
 
             VStack {
                 HStack {
@@ -37,8 +36,6 @@ struct ContentView: View {
                
                 Spacer()
             }
-  
-            
         }
     }
 }
